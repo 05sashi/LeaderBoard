@@ -4,11 +4,11 @@ const Oranks = () => {
   const [sortMethod, setSortMethod] = useState('rank');
 
   const otherRanks = [
-    { rank: 3, name: 'Sebastian', score: 1124 },
-    { rank: 4, name: 'Jason', score: 875, trend: 'down' },
-    { rank: 5, name: 'Natalie', score: 774, trend: 'up' },
-    { rank: 6, name: 'Serenity', score: 723, trend: 'up' },
-    { rank: 7, name: 'Hannah', score: 559, trend: 'down' },
+    { rank: 4, name: 'Sebastian', score: 1124 },
+    { rank: 5, name: 'Jason', score: 875, trend: 'down' },
+    { rank: 6, name: 'Natalie', score: 774, trend: 'up' },
+    { rank: 7, name: 'Serenity', score: 723, trend: 'up' },
+    { rank: 8, name: 'Hannah', score: 559, trend: 'down' },
   ];
 
   const sortedRanks = [...otherRanks].sort((a, b) => {
